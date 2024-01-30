@@ -58,4 +58,4 @@ ${date}
 }
 
 
-export default generateContract
+module.exports = generateContract
