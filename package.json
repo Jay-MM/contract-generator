@@ -1,0 +1,25 @@
+{
+  "name": "contract-generator",
+  "version": "1.0.0",
+  "description": "A node.js tool that generates web development contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jay-MM/contract-generator.git"
+  },
+  "author": "Jay-MM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jay-MM/contract-generator/issues"
+  },
+  "homepage": "https://github.com/Jay-MM/contract-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.2.13"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
