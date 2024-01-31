@@ -6,9 +6,39 @@ const generateContract = require('../utils/generateContract');
 // Assert
 
 describe("contract Object", () => {
+  // Arrange
+    const currentDate = new Date();
+    const date = currentDate.toLocaleDateString();
+    const developerName = "Jay Manny"
+    const clientName = "John Doe"
+    const totalFee = 420.69
+    const paymentTerms = "cash - full amount"
+    currentDate.setDate(currentDate.getDate() + 7);
+    const completionDate = currentDate.toLocaleDateString();
+    const scopeChangesFee = 22.50
+    const confidentiality = false
+    const revisionsCount = 3
+    const revisionDays = 69
+    const noticePeriod = 18
 
-  test("Returns a contract object", () => {
-    // ...
+  test("Returns a contract string", () => {
+// Act
+    const contract = generateContract({
+      date,
+    developerName,
+    clientName,
+    totalFee,
+    paymentTerms,
+    completionDate,
+    scopeChangesFee,
+    confidentiality,
+    noticePeriod,
+    revisionsCount,
+    revisionDays,
+  })
+    console.log(contract)
+// Assert
+    expect(typeof contract).toBe('string')
   })
   test("Has a date", () => {
     

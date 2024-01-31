@@ -29,7 +29,7 @@ The Client agrees to pay the Developer a total fee of ${totalFee}, payable as fo
 The Developer agrees to complete the Website by ${completionDate}, subject to receiving timely feedback and materials from the Client.
 
 ## 4. Changes to Scope
-Any changes to the scope of the Website after the signing of this agreement may result in additional fees. Such changes must be documented in writing and agreed upon by both parties. Scope changes fee: ${scopeChangesFee}.
+Any changes to the scope of the Website after the signing of this agreement may result in additional fees. Such changes must be documented in writing and agreed upon by both parties. Scope changes fee: $${scopeChangesFee} / hour.
 
 ## 5. Intellectual Property
 Upon receipt of full payment, the Developer transfers to the Client all rights in the code, graphics, and text incorporated into the Website. ${intellectualPropertyTransfer}.
@@ -41,7 +41,7 @@ Both parties agree to keep all materials and information shared between them con
 The Client is entitled to make two revisions to the Website within a period of ${revisionsCount} revisions in ${revisionDays} days from the date of completion.
 
 ## 8. Termination
-Either party may terminate this agreement with ${noticePeriod} notice. In the event of termination, the Client will pay for all services performed up to the date of termination.
+Either party may terminate this agreement with ${noticePeriod} days notice. In the event of termination, the Client will pay for all services performed up to the date of termination.
 
 **Developer:**
 ${developerName}
